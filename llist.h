@@ -12,6 +12,8 @@ private:
     DLNode *last;
 public:
     LList();
+    void add(void*);
+    unsigned int count();
 };
 
 #endif // LLIST_H
