@@ -3,12 +3,14 @@
 
 class DLNode
 {
+friend class LList;
 private:
-    void *data;
+    char* data;
     DLNode *next;
     DLNode *previous;
 public:
-    DLNode();
+    DLNode(char* d);
+    void print();
 };
 
 #endif // DLNODE_H
