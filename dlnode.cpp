@@ -4,7 +4,7 @@
 DLNode::DLNode()
 {
     next = NULL;
-    previos = NULL;
+    previous = NULL;
     data = NULL;
 }
 

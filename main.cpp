@@ -1,10 +1,12 @@
 #include <iostream>
+#include "llist.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    LList a;
+
     return 0;
 }
 

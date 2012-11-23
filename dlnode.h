@@ -6,7 +6,7 @@ class DLNode
 private:
     void *data;
     DLNode *next;
-    DLNode *previos;
+    DLNode *previous;
 public:
     DLNode();
 };
