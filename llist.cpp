@@ -23,8 +23,7 @@ void LList::add(char *d)
 
 void LList::print()
 {
-    DLNode *tmp;
-    tmp = first;
+    DLNode *tmp = first;
     while (tmp) {
         tmp->print();
         tmp = tmp->next;
